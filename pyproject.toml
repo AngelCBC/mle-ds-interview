@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "mle-assignment"
+version = "0.1.0"
+description = ""
+authors = ["Benedetto, Matias (ESI) <matias.benedetto@adp.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+pytest = "^8.3.4"
+pandas = "^2.2.3"
+numpy = "^2.2.2"
+matplotlib = "^3.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
